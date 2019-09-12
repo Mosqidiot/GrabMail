@@ -9,11 +9,12 @@ Setup config.json file like below:
 #### config.json
 ```json
 {
-    "Mail-attach-location" : "/Users/user/Library/Mail/V*/<random code>/<mail box name>/<random code>/Data"
+    "Mail-attach-location" : "/Users/user/Library/Mail/V*/<random code>/<mail box name>/<random code>/Data",
     "destination" : [
         {
-            "name" : "<data-vender-name>"
-            "reg-exp" : "^placeholder*"
+            "name" : "<data-vender-name>",
+            "reg-exp" : "^placeholder*",
+            "location" : "./dir-to-go"
         }
     ]
 }
